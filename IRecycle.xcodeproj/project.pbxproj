@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001EBB86C0ACE65A8C8809E3 /* Pods_IRecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F796F171B4E49967C7CAD2 /* Pods_IRecycle.framework */; };
+		FE54CA061DFD1DAD00B660B2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE54CA051DFD1DAD00B660B2 /* AdSupport.framework */; };
+		FE54CA081DFD233500B660B2 /* SiteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE54CA071DFD233500B660B2 /* SiteTableViewController.swift */; };
+		FE54CA0A1DFFB05B00B660B2 /* CreateEditSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE54CA091DFFB05B00B660B2 /* CreateEditSiteViewController.swift */; };
 		FEA41E7B1DF9228D00429911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA41E7A1DF9228D00429911 /* AppDelegate.swift */; };
 		FEA41E7D1DF9228D00429911 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA41E7C1DF9228D00429911 /* FirstViewController.swift */; };
 		FEA41E7F1DF9228D00429911 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA41E7E1DF9228D00429911 /* SecondViewController.swift */; };
 		FEA41E821DF9228D00429911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA41E801DF9228D00429911 /* Main.storyboard */; };
 		FEA41E841DF9228D00429911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA41E831DF9228D00429911 /* Assets.xcassets */; };
 		FEA41E871DF9228D00429911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA41E851DF9228D00429911 /* LaunchScreen.storyboard */; };
+		FEA41E921DF9262C00429911 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA41E911DF9262C00429911 /* ItemsTableViewController.swift */; };
+		FEA41E941DF9265C00429911 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA41E931DF9265C00429911 /* ItemDetailViewController.swift */; };
+		FEA41E991DF92CA000429911 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEA41E981DF92CA000429911 /* GoogleService-Info.plist */; };
+		FEA41E9B1DF93C1800429911 /* RecycleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA41E9A1DF93C1800429911 /* RecycleItem.swift */; };
+		FEA41E9D1DF93C5900429911 /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA41E9C1DF93C5900429911 /* Site.swift */; };
+		FEA41E9F1DF93C6B00429911 /* ItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA41E9E1DF93C6B00429911 /* ItemType.swift */; };
+		FEA41EA21DF9B12A00429911 /* CreateEditItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA41EA11DF9B12A00429911 /* CreateEditItemViewController.swift */; };
+		FEA41EA41DF9EF3900429911 /* FIRDataSnapshotExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA41EA31DF9EF3900429911 /* FIRDataSnapshotExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30A859B96F1D9E5B67DBF99B /* Pods-IRecycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRecycle.release.xcconfig"; path = "Pods/Target Support Files/Pods-IRecycle/Pods-IRecycle.release.xcconfig"; sourceTree = "<group>"; };
+		7FF3F2BEC176590C900B2453 /* Pods-IRecycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRecycle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IRecycle/Pods-IRecycle.debug.xcconfig"; sourceTree = "<group>"; };
+		95F796F171B4E49967C7CAD2 /* Pods_IRecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IRecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE54CA051DFD1DAD00B660B2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		FE54CA071DFD233500B660B2 /* SiteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SiteTableViewController.swift; path = Controllers/SiteTableViewController.swift; sourceTree = "<group>"; };
+		FE54CA091DFFB05B00B660B2 /* CreateEditSiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateEditSiteViewController.swift; path = Controllers/CreateEditSiteViewController.swift; sourceTree = "<group>"; };
 		FEA41E771DF9228D00429911 /* IRecycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRecycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA41E7A1DF9228D00429911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEA41E7C1DF9228D00429911 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +42,14 @@
 		FEA41E831DF9228D00429911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEA41E861DF9228D00429911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEA41E881DF9228D00429911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA41E911DF9262C00429911 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemsTableViewController.swift; path = Controllers/ItemsTableViewController.swift; sourceTree = "<group>"; };
+		FEA41E931DF9265C00429911 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemDetailViewController.swift; path = Controllers/ItemDetailViewController.swift; sourceTree = "<group>"; };
+		FEA41E981DF92CA000429911 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FEA41E9A1DF93C1800429911 /* RecycleItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecycleItem.swift; path = Data/RecycleItem.swift; sourceTree = "<group>"; };
+		FEA41E9C1DF93C5900429911 /* Site.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Site.swift; path = Data/Site.swift; sourceTree = "<group>"; };
+		FEA41E9E1DF93C6B00429911 /* ItemType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemType.swift; path = Data/ItemType.swift; sourceTree = "<group>"; };
+		FEA41EA11DF9B12A00429911 /* CreateEditItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEditItemViewController.swift; sourceTree = "<group>"; };
+		FEA41EA31DF9EF3900429911 /* FIRDataSnapshotExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FIRDataSnapshotExtension.swift; path = Extensions/FIRDataSnapshotExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE54CA061DFD1DAD00B660B2 /* AdSupport.framework in Frameworks */,
+				001EBB86C0ACE65A8C8809E3 /* Pods_IRecycle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D403C993A5A1D0F3392B9A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FF3F2BEC176590C900B2453 /* Pods-IRecycle.debug.xcconfig */,
+				30A859B96F1D9E5B67DBF99B /* Pods-IRecycle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		957FE13F903AF13C250313C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE54CA051DFD1DAD00B660B2 /* AdSupport.framework */,
+				95F796F171B4E49967C7CAD2 /* Pods_IRecycle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FEA41E6E1DF9228D00429911 = {
 			isa = PBXGroup;
 			children = (
 				FEA41E791DF9228D00429911 /* IRecycle */,
 				FEA41E781DF9228D00429911 /* Products */,
+				7D403C993A5A1D0F3392B9A2 /* Pods */,
+				957FE13F903AF13C250313C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +104,9 @@
 		FEA41E791DF9228D00429911 /* IRecycle */ = {
 			isa = PBXGroup;
 			children = (
+				FEA41EA01DF9AE6300429911 /* Extensions */,
+				FEA41E951DF92AF800429911 /* Data */,
+				FEA41E8E1DF925BE00429911 /* Controllers */,
 				FEA41E7A1DF9228D00429911 /* AppDelegate.swift */,
 				FEA41E7C1DF9228D00429911 /* FirstViewController.swift */,
 				FEA41E7E1DF9228D00429911 /* SecondViewController.swift */,
@@ -63,8 +114,39 @@
 				FEA41E831DF9228D00429911 /* Assets.xcassets */,
 				FEA41E851DF9228D00429911 /* LaunchScreen.storyboard */,
 				FEA41E881DF9228D00429911 /* Info.plist */,
+				FEA41E981DF92CA000429911 /* GoogleService-Info.plist */,
 			);
 			path = IRecycle;
+			sourceTree = "<group>";
+		};
+		FEA41E8E1DF925BE00429911 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FEA41EA11DF9B12A00429911 /* CreateEditItemViewController.swift */,
+				FE54CA091DFFB05B00B660B2 /* CreateEditSiteViewController.swift */,
+				FEA41E931DF9265C00429911 /* ItemDetailViewController.swift */,
+				FEA41E911DF9262C00429911 /* ItemsTableViewController.swift */,
+				FE54CA071DFD233500B660B2 /* SiteTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FEA41E951DF92AF800429911 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FEA41E9E1DF93C6B00429911 /* ItemType.swift */,
+				FEA41E9A1DF93C1800429911 /* RecycleItem.swift */,
+				FEA41E9C1DF93C5900429911 /* Site.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		FEA41EA01DF9AE6300429911 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FEA41EA31DF9EF3900429911 /* FIRDataSnapshotExtension.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEA41E8B1DF9228D00429911 /* Build configuration list for PBXNativeTarget "IRecycle" */;
 			buildPhases = (
+				ED5C112B7D4721D080EA3A31 /* [CP] Check Pods Manifest.lock */,
 				FEA41E731DF9228D00429911 /* Sources */,
 				FEA41E741DF9228D00429911 /* Frameworks */,
 				FEA41E751DF9228D00429911 /* Resources */,
+				F8E34B777221319D20E2496F /* [CP] Embed Pods Frameworks */,
+				1426C7057EE1BCFB35F74F07 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEA41E871DF9228D00429911 /* LaunchScreen.storyboard in Resources */,
+				FEA41E991DF92CA000429911 /* GoogleService-Info.plist in Resources */,
 				FEA41E841DF9228D00429911 /* Assets.xcassets in Resources */,
 				FEA41E821DF9228D00429911 /* Main.storyboard in Resources */,
 			);
@@ -135,14 +221,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1426C7057EE1BCFB35F74F07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IRecycle/Pods-IRecycle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED5C112B7D4721D080EA3A31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8E34B777221319D20E2496F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IRecycle/Pods-IRecycle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FEA41E731DF9228D00429911 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA41E9D1DF93C5900429911 /* Site.swift in Sources */,
+				FEA41E941DF9265C00429911 /* ItemDetailViewController.swift in Sources */,
+				FEA41E9F1DF93C6B00429911 /* ItemType.swift in Sources */,
+				FE54CA0A1DFFB05B00B660B2 /* CreateEditSiteViewController.swift in Sources */,
+				FE54CA081DFD233500B660B2 /* SiteTableViewController.swift in Sources */,
 				FEA41E7F1DF9228D00429911 /* SecondViewController.swift in Sources */,
 				FEA41E7B1DF9228D00429911 /* AppDelegate.swift in Sources */,
+				FEA41EA21DF9B12A00429911 /* CreateEditItemViewController.swift in Sources */,
 				FEA41E7D1DF9228D00429911 /* FirstViewController.swift in Sources */,
+				FEA41E9B1DF93C1800429911 /* RecycleItem.swift in Sources */,
+				FEA41E921DF9262C00429911 /* ItemsTableViewController.swift in Sources */,
+				FEA41EA41DF9EF3900429911 /* FIRDataSnapshotExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +406,7 @@
 		};
 		FEA41E8C1DF9228D00429911 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FF3F2BEC176590C900B2453 /* Pods-IRecycle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S6BWLQXDC7;
@@ -276,6 +420,7 @@
 		};
 		FEA41E8D1DF9228D00429911 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A859B96F1D9E5B67DBF99B /* Pods-IRecycle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S6BWLQXDC7;
@@ -306,6 +451,7 @@
 				FEA41E8D1DF9228D00429911 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
