@@ -14,19 +14,77 @@
             <objects>
                 <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                    <tabBar key="tabBar" contentMode="scaleToFill" barStyle="black" id="W28-zg-YXA" customClass="CustomTabBar" customModule="IRecycle" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="hej-EU-9Z8" kind="relationship" relationship="viewControllers" id="Dm2-xN-jaV"/>
-                        <segue destination="fFx-Pz-TWh" kind="relationship" relationship="viewControllers" id="HfW-w9-eeQ"/>
+                        <segue destination="HsI-cU-Xwj" kind="relationship" relationship="viewControllers" id="Aw0-Gg-L0J"/>
+                        <segue destination="ymv-yX-BfH" kind="relationship" relationship="viewControllers" id="Fej-IA-Jwd"/>
+                        <segue destination="YPj-tp-ixe" kind="relationship" relationship="viewControllers" id="khl-k1-u9S"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-162" y="313"/>
+            <point key="canvasLocation" x="751" y="846"/>
+        </scene>
+        <!--Reduce-->
+        <scene sceneID="9xW-31-tsO">
+            <objects>
+                <viewController id="HsI-cU-Xwj" customClass="FirstViewController" customModule="IRecycle" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bfX-hj-erG"/>
+                        <viewControllerLayoutGuide type="bottom" id="wjv-cX-Ajf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kvL-sE-tjS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Reduce" image="icon_reduce" id="8Iy-bs-dpZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dnM-ay-RWz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-42.399999999999999" y="1654.7226386806599"/>
+        </scene>
+        <!--Reuse-->
+        <scene sceneID="JYB-Ca-DJ8">
+            <objects>
+                <viewController id="ymv-yX-BfH" customClass="SecondViewController" customModule="IRecycle" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cwk-gX-P6Q"/>
+                        <viewControllerLayoutGuide type="bottom" id="M3W-42-OKf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fc5-6b-ecP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Reuse" image="icon_reuse" id="2wy-iD-l90"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HLa-wO-R4u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="745" y="1655"/>
+        </scene>
+        <!--Recycle-->
+        <scene sceneID="cEg-N5-GZd">
+            <objects>
+                <viewController id="YPj-tp-ixe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dSy-TG-Jwe"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZeU-wZ-pSU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u9G-b9-e0B">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Recycle" image="icon_recycle" id="14Z-Ez-Jl2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="umf-Vl-JUu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1542" y="1655"/>
         </scene>
         <!--Items Table View Controller-->
         <scene sceneID="Xh9-co-eua">
@@ -72,7 +130,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bXs-qg-7yf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1543" y="0.0"/>
+            <point key="canvasLocation" x="746" y="-714"/>
         </scene>
         <!--New Item-->
         <scene sceneID="b3E-To-Is9">
@@ -144,7 +202,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hej-EU-9Z8" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Items" image="first" id="Op7-J7-jH5"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mqe-ic-9Kx">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="mqe-ic-9Kx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -155,7 +213,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ma-WV-Kx8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="752.79999999999995" y="-0.44977511244377816"/>
+            <point key="canvasLocation" x="-42" y="-714"/>
         </scene>
         <!--Site Table View Controller-->
         <scene sceneID="6DX-0H-xNb">
@@ -201,7 +259,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cur-kU-enr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1542" y="657"/>
+            <point key="canvasLocation" x="745" y="-28"/>
         </scene>
         <!--Create Edit Site View Controller-->
         <scene sceneID="WmS-Y3-XTl">
@@ -306,14 +364,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YkX-i3-X80" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2301.5999999999999" y="1371.3643178410796"/>
+            <point key="canvasLocation" x="2302" y="-29"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="HFV-gs-BU3">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="73n-M6-yMA" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hsI-dp-xKb">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="hsI-dp-xKb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -332,7 +390,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fFx-Pz-TWh" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Site" image="second" id="N04-TA-TYU"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ip8-oh-iHC">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Ip8-oh-iHC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -343,14 +401,14 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jLi-xR-qq5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="752.79999999999995" y="657.12143928035982"/>
+            <point key="canvasLocation" x="-42" y="-27"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="c0e-tw-45p">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KOX-aU-a8P" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qPQ-Ti-U6d">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="qPQ-Ti-U6d">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -361,11 +419,14 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sbN-Qw-5PL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1542" y="1374"/>
+            <point key="canvasLocation" x="1542" y="-27"/>
         </scene>
     </scenes>
     <resources>
         <image name="first" width="30" height="30"/>
+        <image name="icon_recycle" width="25" height="30"/>
+        <image name="icon_reduce" width="12" height="26"/>
+        <image name="icon_reuse" width="28" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
 </document>

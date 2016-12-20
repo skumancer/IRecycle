@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		001EBB86C0ACE65A8C8809E3 /* Pods_IRecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F796F171B4E49967C7CAD2 /* Pods_IRecycle.framework */; };
+		FE2F1EDC1E064C8E00D63F04 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2F1EDB1E064C8E00D63F04 /* UIViewExtension.swift */; };
+		FE2F1EDE1E0658B700D63F04 /* UITabBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2F1EDD1E0658B700D63F04 /* UITabBarExtension.swift */; };
+		FE2F1EE01E06598700D63F04 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2F1EDF1E06598700D63F04 /* CustomTabBar.swift */; };
 		FE54CA061DFD1DAD00B660B2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE54CA051DFD1DAD00B660B2 /* AdSupport.framework */; };
 		FE54CA081DFD233500B660B2 /* SiteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE54CA071DFD233500B660B2 /* SiteTableViewController.swift */; };
 		FE54CA0A1DFFB05B00B660B2 /* CreateEditSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE54CA091DFFB05B00B660B2 /* CreateEditSiteViewController.swift */; };
@@ -31,6 +34,9 @@
 		30A859B96F1D9E5B67DBF99B /* Pods-IRecycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRecycle.release.xcconfig"; path = "Pods/Target Support Files/Pods-IRecycle/Pods-IRecycle.release.xcconfig"; sourceTree = "<group>"; };
 		7FF3F2BEC176590C900B2453 /* Pods-IRecycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRecycle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IRecycle/Pods-IRecycle.debug.xcconfig"; sourceTree = "<group>"; };
 		95F796F171B4E49967C7CAD2 /* Pods_IRecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IRecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2F1EDB1E064C8E00D63F04 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = Extensions/UIViewExtension.swift; sourceTree = "<group>"; };
+		FE2F1EDD1E0658B700D63F04 /* UITabBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITabBarExtension.swift; path = Extensions/UITabBarExtension.swift; sourceTree = "<group>"; };
+		FE2F1EDF1E06598700D63F04 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		FE54CA051DFD1DAD00B660B2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		FE54CA071DFD233500B660B2 /* SiteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SiteTableViewController.swift; path = Controllers/SiteTableViewController.swift; sourceTree = "<group>"; };
 		FE54CA091DFFB05B00B660B2 /* CreateEditSiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateEditSiteViewController.swift; path = Controllers/CreateEditSiteViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +89,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FE2F1EE11E06598E00D63F04 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE2F1EDF1E06598700D63F04 /* CustomTabBar.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		FEA41E6E1DF9228D00429911 = {
 			isa = PBXGroup;
 			children = (
@@ -104,17 +118,16 @@
 		FEA41E791DF9228D00429911 /* IRecycle */ = {
 			isa = PBXGroup;
 			children = (
-				FEA41EA01DF9AE6300429911 /* Extensions */,
-				FEA41E951DF92AF800429911 /* Data */,
 				FEA41E8E1DF925BE00429911 /* Controllers */,
+				FEA41E951DF92AF800429911 /* Data */,
+				FEA41EA01DF9AE6300429911 /* Extensions */,
+				FE2F1EE11E06598E00D63F04 /* Views */,
 				FEA41E7A1DF9228D00429911 /* AppDelegate.swift */,
-				FEA41E7C1DF9228D00429911 /* FirstViewController.swift */,
-				FEA41E7E1DF9228D00429911 /* SecondViewController.swift */,
-				FEA41E801DF9228D00429911 /* Main.storyboard */,
 				FEA41E831DF9228D00429911 /* Assets.xcassets */,
-				FEA41E851DF9228D00429911 /* LaunchScreen.storyboard */,
-				FEA41E881DF9228D00429911 /* Info.plist */,
 				FEA41E981DF92CA000429911 /* GoogleService-Info.plist */,
+				FEA41E881DF9228D00429911 /* Info.plist */,
+				FEA41E851DF9228D00429911 /* LaunchScreen.storyboard */,
+				FEA41E801DF9228D00429911 /* Main.storyboard */,
 			);
 			path = IRecycle;
 			sourceTree = "<group>";
@@ -127,6 +140,8 @@
 				FEA41E931DF9265C00429911 /* ItemDetailViewController.swift */,
 				FEA41E911DF9262C00429911 /* ItemsTableViewController.swift */,
 				FE54CA071DFD233500B660B2 /* SiteTableViewController.swift */,
+				FEA41E7C1DF9228D00429911 /* FirstViewController.swift */,
+				FEA41E7E1DF9228D00429911 /* SecondViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -145,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				FEA41EA31DF9EF3900429911 /* FIRDataSnapshotExtension.swift */,
+				FE2F1EDB1E064C8E00D63F04 /* UIViewExtension.swift */,
+				FE2F1EDD1E0658B700D63F04 /* UITabBarExtension.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -275,14 +292,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEA41E9D1DF93C5900429911 /* Site.swift in Sources */,
+				FE2F1EE01E06598700D63F04 /* CustomTabBar.swift in Sources */,
 				FEA41E941DF9265C00429911 /* ItemDetailViewController.swift in Sources */,
 				FEA41E9F1DF93C6B00429911 /* ItemType.swift in Sources */,
 				FE54CA0A1DFFB05B00B660B2 /* CreateEditSiteViewController.swift in Sources */,
 				FE54CA081DFD233500B660B2 /* SiteTableViewController.swift in Sources */,
 				FEA41E7F1DF9228D00429911 /* SecondViewController.swift in Sources */,
 				FEA41E7B1DF9228D00429911 /* AppDelegate.swift in Sources */,
+				FE2F1EDE1E0658B700D63F04 /* UITabBarExtension.swift in Sources */,
 				FEA41EA21DF9B12A00429911 /* CreateEditItemViewController.swift in Sources */,
 				FEA41E7D1DF9228D00429911 /* FirstViewController.swift in Sources */,
+				FE2F1EDC1E064C8E00D63F04 /* UIViewExtension.swift in Sources */,
 				FEA41E9B1DF93C1800429911 /* RecycleItem.swift in Sources */,
 				FEA41E921DF9262C00429911 /* ItemsTableViewController.swift in Sources */,
 				FEA41EA41DF9EF3900429911 /* FIRDataSnapshotExtension.swift in Sources */,
