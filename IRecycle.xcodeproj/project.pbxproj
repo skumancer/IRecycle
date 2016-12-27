@@ -8,15 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		001EBB86C0ACE65A8C8809E3 /* Pods_IRecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F796F171B4E49967C7CAD2 /* Pods_IRecycle.framework */; };
+		AE775A341E122042005EBE6F /* ReduceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE775A331E122042005EBE6F /* ReduceViewController.swift */; };
+		AE775A361E122054005EBE6F /* ReuseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE775A351E122054005EBE6F /* ReuseViewController.swift */; };
+		AE775A381E12206F005EBE6F /* RecycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE775A371E12206F005EBE6F /* RecycleViewController.swift */; };
+		AEFB7DB91E09083000177303 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFB7DB81E09083000177303 /* CustomTabBar.swift */; };
+		AEFB7DBB1E09083800177303 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFB7DBA1E09083800177303 /* GradientView.swift */; };
 		FE2F1EDC1E064C8E00D63F04 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2F1EDB1E064C8E00D63F04 /* UIViewExtension.swift */; };
 		FE2F1EDE1E0658B700D63F04 /* UITabBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2F1EDD1E0658B700D63F04 /* UITabBarExtension.swift */; };
-		FE2F1EE01E06598700D63F04 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2F1EDF1E06598700D63F04 /* CustomTabBar.swift */; };
 		FE54CA061DFD1DAD00B660B2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE54CA051DFD1DAD00B660B2 /* AdSupport.framework */; };
 		FE54CA081DFD233500B660B2 /* SiteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE54CA071DFD233500B660B2 /* SiteTableViewController.swift */; };
 		FE54CA0A1DFFB05B00B660B2 /* CreateEditSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE54CA091DFFB05B00B660B2 /* CreateEditSiteViewController.swift */; };
 		FEA41E7B1DF9228D00429911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA41E7A1DF9228D00429911 /* AppDelegate.swift */; };
-		FEA41E7D1DF9228D00429911 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA41E7C1DF9228D00429911 /* FirstViewController.swift */; };
-		FEA41E7F1DF9228D00429911 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA41E7E1DF9228D00429911 /* SecondViewController.swift */; };
 		FEA41E821DF9228D00429911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA41E801DF9228D00429911 /* Main.storyboard */; };
 		FEA41E841DF9228D00429911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA41E831DF9228D00429911 /* Assets.xcassets */; };
 		FEA41E871DF9228D00429911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA41E851DF9228D00429911 /* LaunchScreen.storyboard */; };
@@ -34,16 +36,18 @@
 		30A859B96F1D9E5B67DBF99B /* Pods-IRecycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRecycle.release.xcconfig"; path = "Pods/Target Support Files/Pods-IRecycle/Pods-IRecycle.release.xcconfig"; sourceTree = "<group>"; };
 		7FF3F2BEC176590C900B2453 /* Pods-IRecycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRecycle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IRecycle/Pods-IRecycle.debug.xcconfig"; sourceTree = "<group>"; };
 		95F796F171B4E49967C7CAD2 /* Pods_IRecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IRecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE775A331E122042005EBE6F /* ReduceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReduceViewController.swift; path = Controllers/ReduceViewController.swift; sourceTree = "<group>"; };
+		AE775A351E122054005EBE6F /* ReuseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReuseViewController.swift; path = Controllers/ReuseViewController.swift; sourceTree = "<group>"; };
+		AE775A371E12206F005EBE6F /* RecycleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecycleViewController.swift; path = Controllers/RecycleViewController.swift; sourceTree = "<group>"; };
+		AEFB7DB81E09083000177303 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTabBar.swift; path = Views/CustomTabBar.swift; sourceTree = "<group>"; };
+		AEFB7DBA1E09083800177303 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = Views/GradientView.swift; sourceTree = "<group>"; };
 		FE2F1EDB1E064C8E00D63F04 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = Extensions/UIViewExtension.swift; sourceTree = "<group>"; };
 		FE2F1EDD1E0658B700D63F04 /* UITabBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITabBarExtension.swift; path = Extensions/UITabBarExtension.swift; sourceTree = "<group>"; };
-		FE2F1EDF1E06598700D63F04 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		FE54CA051DFD1DAD00B660B2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		FE54CA071DFD233500B660B2 /* SiteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SiteTableViewController.swift; path = Controllers/SiteTableViewController.swift; sourceTree = "<group>"; };
 		FE54CA091DFFB05B00B660B2 /* CreateEditSiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateEditSiteViewController.swift; path = Controllers/CreateEditSiteViewController.swift; sourceTree = "<group>"; };
 		FEA41E771DF9228D00429911 /* IRecycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRecycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA41E7A1DF9228D00429911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FEA41E7C1DF9228D00429911 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		FEA41E7E1DF9228D00429911 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		FEA41E811DF9228D00429911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEA41E831DF9228D00429911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEA41E861DF9228D00429911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -92,7 +96,8 @@
 		FE2F1EE11E06598E00D63F04 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FE2F1EDF1E06598700D63F04 /* CustomTabBar.swift */,
+				AEFB7DB81E09083000177303 /* CustomTabBar.swift */,
+				AEFB7DBA1E09083800177303 /* GradientView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -139,9 +144,10 @@
 				FE54CA091DFFB05B00B660B2 /* CreateEditSiteViewController.swift */,
 				FEA41E931DF9265C00429911 /* ItemDetailViewController.swift */,
 				FEA41E911DF9262C00429911 /* ItemsTableViewController.swift */,
+				AE775A371E12206F005EBE6F /* RecycleViewController.swift */,
+				AE775A331E122042005EBE6F /* ReduceViewController.swift */,
+				AE775A351E122054005EBE6F /* ReuseViewController.swift */,
 				FE54CA071DFD233500B660B2 /* SiteTableViewController.swift */,
-				FEA41E7C1DF9228D00429911 /* FirstViewController.swift */,
-				FEA41E7E1DF9228D00429911 /* SecondViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -292,16 +298,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEA41E9D1DF93C5900429911 /* Site.swift in Sources */,
-				FE2F1EE01E06598700D63F04 /* CustomTabBar.swift in Sources */,
+				AE775A381E12206F005EBE6F /* RecycleViewController.swift in Sources */,
+				AEFB7DB91E09083000177303 /* CustomTabBar.swift in Sources */,
 				FEA41E941DF9265C00429911 /* ItemDetailViewController.swift in Sources */,
+				AE775A361E122054005EBE6F /* ReuseViewController.swift in Sources */,
 				FEA41E9F1DF93C6B00429911 /* ItemType.swift in Sources */,
 				FE54CA0A1DFFB05B00B660B2 /* CreateEditSiteViewController.swift in Sources */,
 				FE54CA081DFD233500B660B2 /* SiteTableViewController.swift in Sources */,
-				FEA41E7F1DF9228D00429911 /* SecondViewController.swift in Sources */,
+				AEFB7DBB1E09083800177303 /* GradientView.swift in Sources */,
+				AE775A341E122042005EBE6F /* ReduceViewController.swift in Sources */,
 				FEA41E7B1DF9228D00429911 /* AppDelegate.swift in Sources */,
 				FE2F1EDE1E0658B700D63F04 /* UITabBarExtension.swift in Sources */,
 				FEA41EA21DF9B12A00429911 /* CreateEditItemViewController.swift in Sources */,
-				FEA41E7D1DF9228D00429911 /* FirstViewController.swift in Sources */,
 				FE2F1EDC1E064C8E00D63F04 /* UIViewExtension.swift in Sources */,
 				FEA41E9B1DF93C1800429911 /* RecycleItem.swift in Sources */,
 				FEA41E921DF9262C00429911 /* ItemsTableViewController.swift in Sources */,

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,10 +15,10 @@
             <objects>
                 <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" barStyle="black" id="W28-zg-YXA" customClass="CustomTabBar" customModule="IRecycle" customModuleProvider="target">
+                    <tabBar key="tabBar" contentMode="scaleToFill" barStyle="black" backgroundImage="divider" id="W28-zg-YXA" customClass="CustomTabBar" customModule="IRecycle" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
                         <segue destination="HsI-cU-Xwj" kind="relationship" relationship="viewControllers" id="Aw0-Gg-L0J"/>
@@ -32,15 +33,28 @@
         <!--Reduce-->
         <scene sceneID="9xW-31-tsO">
             <objects>
-                <viewController id="HsI-cU-Xwj" customClass="FirstViewController" customModule="IRecycle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="HsI-cU-Xwj" customClass="ReduceViewController" customModule="IRecycle" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bfX-hj-erG"/>
                         <viewControllerLayoutGuide type="bottom" id="wjv-cX-Ajf"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kvL-sE-tjS">
+                    <view key="view" contentMode="scaleToFill" id="kvL-sE-tjS" customClass="GradientView" customModule="IRecycle" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reduce" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xI9-Ar-vtO">
+                                <rect key="frame" x="16" y="20" width="343" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xI9-Ar-vtO" firstAttribute="leading" secondItem="kvL-sE-tjS" secondAttribute="leading" constant="16" id="10L-53-ymc"/>
+                            <constraint firstAttribute="trailing" secondItem="xI9-Ar-vtO" secondAttribute="trailing" constant="16" id="E9n-Rh-hSi"/>
+                            <constraint firstItem="xI9-Ar-vtO" firstAttribute="top" secondItem="bfX-hj-erG" secondAttribute="bottom" id="h2C-91-BEB"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Reduce" image="icon_reduce" id="8Iy-bs-dpZ"/>
                 </viewController>
@@ -51,40 +65,94 @@
         <!--Reuse-->
         <scene sceneID="JYB-Ca-DJ8">
             <objects>
-                <viewController id="ymv-yX-BfH" customClass="SecondViewController" customModule="IRecycle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ymv-yX-BfH" customClass="ReuseViewController" customModule="IRecycle" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Cwk-gX-P6Q"/>
                         <viewControllerLayoutGuide type="bottom" id="M3W-42-OKf"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="fc5-6b-ecP">
+                    <view key="view" contentMode="scaleToFill" id="fc5-6b-ecP" customClass="GradientView" customModule="IRecycle" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reuse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gK9-aV-U1f">
+                                <rect key="frame" x="16" y="28" width="343" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gK9-aV-U1f" firstAttribute="top" secondItem="Cwk-gX-P6Q" secondAttribute="bottom" constant="8" id="6O1-GU-Rze"/>
+                            <constraint firstItem="gK9-aV-U1f" firstAttribute="leading" secondItem="fc5-6b-ecP" secondAttribute="leadingMargin" id="AB4-qL-eWv"/>
+                            <constraint firstItem="gK9-aV-U1f" firstAttribute="trailing" secondItem="fc5-6b-ecP" secondAttribute="trailingMargin" id="WlO-yv-YCh"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Reuse" image="icon_reuse" id="2wy-iD-l90"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HLa-wO-R4u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="745" y="1655"/>
+            <point key="canvasLocation" x="744.79999999999995" y="1654.7226386806599"/>
         </scene>
         <!--Recycle-->
         <scene sceneID="cEg-N5-GZd">
             <objects>
-                <viewController id="YPj-tp-ixe" sceneMemberID="viewController">
+                <viewController id="YPj-tp-ixe" customClass="RecycleViewController" customModule="IRecycle" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dSy-TG-Jwe"/>
                         <viewControllerLayoutGuide type="bottom" id="ZeU-wZ-pSU"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="u9G-b9-e0B">
+                    <view key="view" contentMode="scaleToFill" id="u9G-b9-e0B" customClass="GradientView" customModule="IRecycle" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recycle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxW-JV-qqP">
+                                <rect key="frame" x="16" y="28" width="343" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="6eX-M5-4da"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Sites" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wT-t3-MXw">
+                                <rect key="frame" x="16" y="230" width="343" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="caq-V8-w4M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Items" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYL-2p-KVj">
+                                <rect key="frame" x="16" y="432" width="343" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="OJX-KA-dFX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1wT-t3-MXw" firstAttribute="trailing" secondItem="u9G-b9-e0B" secondAttribute="trailingMargin" id="7fV-J1-4SC"/>
+                            <constraint firstItem="WYL-2p-KVj" firstAttribute="top" secondItem="1wT-t3-MXw" secondAttribute="bottom" constant="160" id="9Sf-GN-hBm"/>
+                            <constraint firstItem="1wT-t3-MXw" firstAttribute="top" secondItem="qxW-JV-qqP" secondAttribute="bottom" constant="160" id="JGT-Io-Hxa"/>
+                            <constraint firstItem="qxW-JV-qqP" firstAttribute="leading" secondItem="u9G-b9-e0B" secondAttribute="leadingMargin" id="KHs-yD-ScU"/>
+                            <constraint firstItem="qxW-JV-qqP" firstAttribute="top" secondItem="dSy-TG-Jwe" secondAttribute="bottom" constant="8" id="ZuQ-iV-G15"/>
+                            <constraint firstItem="1wT-t3-MXw" firstAttribute="leading" secondItem="u9G-b9-e0B" secondAttribute="leadingMargin" id="bKV-a7-rPi"/>
+                            <constraint firstItem="ZeU-wZ-pSU" firstAttribute="top" relation="greaterThanOrEqual" secondItem="WYL-2p-KVj" secondAttribute="bottom" constant="5" id="t8V-oU-oSn"/>
+                            <constraint firstItem="WYL-2p-KVj" firstAttribute="trailing" secondItem="u9G-b9-e0B" secondAttribute="trailingMargin" id="thf-fi-mVR"/>
+                            <constraint firstItem="qxW-JV-qqP" firstAttribute="trailing" secondItem="u9G-b9-e0B" secondAttribute="trailingMargin" id="uGa-kc-pWb"/>
+                            <constraint firstItem="WYL-2p-KVj" firstAttribute="leading" secondItem="u9G-b9-e0B" secondAttribute="leadingMargin" id="w5u-yP-5Zg"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Recycle" image="icon_recycle" id="14Z-Ez-Jl2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="umf-Vl-JUu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1542" y="1655"/>
+            <point key="canvasLocation" x="1541.5999999999999" y="1654.7226386806599"/>
         </scene>
         <!--Items Table View Controller-->
         <scene sceneID="Xh9-co-eua">
@@ -423,6 +491,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="divider" width="375" height="55"/>
         <image name="first" width="30" height="30"/>
         <image name="icon_recycle" width="25" height="30"/>
         <image name="icon_reduce" width="12" height="26"/>

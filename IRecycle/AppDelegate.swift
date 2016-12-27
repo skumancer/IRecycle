@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Override point for customization after application launch.
         UITabBar.appearance().shadowImage = UIImage()
-        UITabBar.appearance().backgroundImage = #imageLiteral(resourceName: "blue_divider")
+        UITabBar.appearance().backgroundImage = #imageLiteral(resourceName: "divider")
         
         FIRApp.configure()
         
